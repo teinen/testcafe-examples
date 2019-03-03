@@ -1,0 +1,13 @@
+{
+  "name": "testcafe-examples",
+  "description": "Testcafe examples practice",
+  "scripts": {
+    "test:ch": "testcafe chrome test/**.js",
+    "test:sa": "testcafe safari test/**.js",
+    "test:ff": "testcafe firefox test/**.js",
+    "test:ed": "testcafe edge test/**.js"
+  },
+  "dependencies": {
+    "testcafe": "^1.1.0"
+  }
+}
