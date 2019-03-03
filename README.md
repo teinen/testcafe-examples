@@ -4,12 +4,23 @@ Getting started: https://devexpress.github.io/testcafe/documentation/getting-sta
 
 ## Install
 
-```
-$ npm i -g testcafe
+```bash
+$ cd testcafe-examples
+$ npm install
 ```
 
 ## Run test
 
-```
-$ testcafe chrome test1.js
+```bash
+# chrome
+$ npm run test:ch
+
+# safari
+$ npm run test:sa
+
+# firefox
+$ npm run test:ff
+
+# edge
+$ npm run test:ed
 ```
